@@ -1,10 +1,19 @@
 project:
   type: book
+  output-dir: docs
+
+lang: pt
 
 book:
-  title: "positron"
-  author: "Jane Doe"
-  date: "21/07/2024"
+  title: "Manual do IDE Positron"
+  author: "Luís Gustavo Schuck"
+  date: today
+  sidebar:
+    collapse-level: 1
+  repo-url: https://github.com/lgschuck/positron
+  
+  downloads: [pdf]
+
   chapters:
     - index.qmd
     - intro.qmd
