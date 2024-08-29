@@ -2,7 +2,8 @@ project:
   type: book
   output-dir: docs
 
-lang: pt
+lang: pt-br
+engine: knitr
 
 book:
   title: "Manual do IDE Positron"
@@ -14,8 +15,15 @@ book:
   
   downloads: [pdf]
 
+  page-footer:
+      left: |
+        Manual do IDE Positron
+      right: |
+        Material criado com software livre: R, Positron e Quarto.
+      background: '#28649c'
   chapters:
     - index.qmd
+    - autor.qmd
     - intro.qmd
     - references.qmd
 
@@ -23,9 +31,6 @@ bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: [slate , tema.scss]
   pdf:
     documentclass: scrreprt
-
-
-

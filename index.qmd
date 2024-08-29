@@ -1,3 +1,7 @@
 # Prefácio {.unnumbered}
 
 Este livro é um manual do IDE Positron.
+
+------------------------------------------------------------------------
+
+Última atualização: `r format(file.info('index.qmd')$mtime, '%d/%m/%Y - %H:%M:%S')`

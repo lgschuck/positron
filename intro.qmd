@@ -1,2 +1,6 @@
 # Introdução
 
+
+------------------------------------------------------------------------
+
+Última atualização: `r format(file.info('intro.qmd')$mtime, '%d/%m/%Y - %H:%M:%S')`
