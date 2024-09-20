@@ -11,7 +11,7 @@ book:
   date: today
   sidebar:
     collapse-level: 1
-  repo-url: https://github.com/lgschuck/positron
+  repo-url: https://github.com/lgschuck/positron_manual
   
   downloads: [pdf]
 
@@ -20,7 +20,7 @@ book:
         Manual do IDE Positron
       right: |
         Material criado com software livre: R, Positron e Quarto.
-      background: '#28649c'
+      background: '#02556c'
   chapters:
     - index.qmd
     - autor.qmd
@@ -31,6 +31,8 @@ bibliography: references.bib
 
 format:
   html:
-    theme: [slate , tema.scss]
+    theme:
+      light: [cosmo , tema.scss]
+      dark: [slate]
   pdf:
     documentclass: scrreprt
