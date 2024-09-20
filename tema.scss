@@ -1,4 +1,5 @@
 
+$base_color: #2f4366;
 /*-- scss:defaults --*/
 
 .sidebar-title {
@@ -7,15 +8,15 @@
 
 }
 
-$sidebar-bg: #28649c;
-$link-color: #28649c;
+$sidebar-bg: $base_color;
+$link-color: $base_color;
 
 h1 {
-  color: #28649c;
+  color: $base_color;
 }
 
-$btn-code-copy-color: #28649c;
-$btn-code-copy-color-active: #28649c;
+$btn-code-copy-color: $base_color;
+$btn-code-copy-color-active: $base_color;
 
 .sidebar nav[role=doc-toc] ul>li>a.active, .sidebar nav[role=doc-toc] ul>li>ul>li>a.active{
   font-weight: bold;
